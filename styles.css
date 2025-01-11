@@ -1,0 +1,684 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.first{
+    list-style-type: none;
+    background-color: rgb(255, 254, 254);
+    height: 100px;
+}
+.first li{
+    color: red;
+    font-size: medium;
+    float: left;
+    padding: 35px 15px;
+    font-weight: 600;
+}
+#change{
+    color: red;
+    text-decoration: none;
+}
+#logo{
+    padding-top: 25px;
+    padding-left: 70px;
+}
+#shop{
+    padding-right: 100px;
+}
+#globe{
+    width: 25px;
+    margin-right: 30px;
+}
+#english{
+    position: absolute;
+    top: 35px;
+    margin-left: 30px;
+}
+#english1{
+    margin-right: 50px;
+    padding-left: 10px;
+}
+button{
+    border-radius: 30px;
+    border: 2px solid grey;
+    padding: 15px 50px;
+    position: relative;
+    margin-top: -15px;
+    background-color: white;
+}
+#arrow{
+    width: 20px;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+}
+#get{
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    margin-left: 25px;
+}
+#bars {
+    display: none;
+}
+header{
+    position: relative;
+    height: 750px;
+    padding-top: 50px;
+}
+#one{
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+#two{
+    font-size: medium;
+    text-align: left;
+}
+#location{
+    width: 20px;
+    position: absolute;
+    top: 21px;
+    left: 15px;
+}
+form{
+    position: relative;
+    
+}
+.button2{
+    border: 2px solid grey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 230px;
+    border-radius: 10px;
+    margin-right: 50px;
+    position: absolute;
+    top: 8px;
+    left: 100px;
+}
+.button3{
+    border: 2px solid grey;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 10px;
+    padding-right: 330px;
+    border-radius: 10px;
+    position: absolute;
+    top: 8px;
+    left: 470px;
+}
+#span1{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+.fa-calendar{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+.button4{
+    border: 2px solid grey;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 150px;
+    border-radius: 10px;
+    position: absolute;
+    top: 8px;
+    right: 200px;
+}
+.fa-user{
+    position: absolute;
+    left: 15px;
+    top: 26px;
+}
+#span2{
+    padding-left: 40px;
+}
+#search{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    right: 60px;
+}
+.allow{
+    position: absolute;
+    top: 210px;
+    left: 100px;
+}
+#your{
+    font-size: 25px;
+}
+#hotelp{
+    width: 30px;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+}
+#insert{
+    color: black;
+    text-decoration: none;
+    text-align: left;
+}
+#arab{
+    padding-bottom: 7px;
+    font-size: 15px;
+    padding-left: 70px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+#light{
+    padding-left: 70px;
+}
+.cover{
+    background-color: beige;
+    border: 1px solid grey;
+    border-radius: 25px ;
+    width: 350px;
+    height: 130px;
+    padding: 20px;
+    position: absolute;
+    left: 420px;
+    margin-top: 10px;
+}
+.cover2{
+    background-color: beige;
+    border: 1px solid grey;
+    border-radius: 25px ;
+    width: 350px;
+    height: 130px;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+}
+#find{
+    position: absolute;
+    top: 430px;
+    left: 100px;
+    font-size: 30px;
+    color: black;
+    margin-top: 8px;
+}
+.section{
+    position: absolute;
+    top: 540px;
+    left: 100px;
+    background-color: tomato;
+    border-radius: 10px;
+    height: 200px;
+    width: 1200px;
+    padding: 15px 5px;
+}
+#calendar{
+    width: 70px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+.one{
+    color: white;
+    background-color: brown;
+    height: 150px;
+    width: 350px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    position: absolute;
+    right: 5px;
+}
+#first{
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 90px;
+    font-weight: 500;
+}
+#price{
+    width: 70px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+.two{
+    color: white;
+    background-color: brown;
+    height: 150px;
+    width: 350px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 10px; 
+    position: absolute;
+    left: 415px;
+}
+#moon{
+    width: 70px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.three{
+    color: white;
+    background-color: brown;
+    height: 150px;
+    width: 350px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 15px;
+}
+#disco{
+    position: absolute;
+    left: 100px;
+    font-weight: 600;
+}
+section{
+    height: 800px;
+    position: relative;
+}
+.four{
+    position: absolute;
+    top: 60px;
+    right: 5px;
+}
+#resort{
+    width: 250px;
+    border-radius: 20px;
+}
+#res{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+#lay{
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+    height: 330px;
+    width: 250px;
+    border-radius: 20px;
+}
+#spa{
+    width: 250px;
+    border-radius: 20px;
+}
+.five{
+    position: absolute;
+    top: 60px;
+    right: 270px;
+}
+#spa2{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 25px; 
+}
+#pool{
+    width: 250px;
+    border-radius: 20px; 
+}
+.six{
+    position: absolute;
+    top: 60px;
+    left: 560px;
+}
+#pool2{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+#sea{
+    width: 250px;
+    border-radius: 20px;
+}
+.seven{
+    position: absolute;
+    top: 60px;
+    left: 290px;
+}
+#sea2{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 25px; 
+}
+#all{
+    width: 250px;
+    border-radius: 20px;
+}
+.eight{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+#explore{
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    font-size: 20px;
+}
+.nine{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+#nairo{
+    width: 270px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+#backup{
+    background-color: whitesmoke;
+    height: 80px;
+    width: 250px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#cotonou{
+    width: 270px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px; 
+}
+.ten{
+    position: absolute;
+    bottom: 50px;
+    right: 360px;
+}
+.eleven{
+    position: absolute;
+    bottom: 50px;
+    left: 410px;
+}
+#marbella{
+    width: 270px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px; 
+}
+.twelve{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+#wesley{
+    width: 270px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+#mountain{
+    border-radius: 25px;
+    height: 800px;
+    width: 1335px;
+    margin-left: 5px;
+}
+#lay2{
+    position: absolute;
+    background-color: darkcyan;
+    opacity: 0.5;
+    height: 800px;
+    width: 1335px;
+    margin-left: 5px;
+    border-radius: 25px;
+}
+.second{
+    position: relative;
+    height: 850px;
+}
+#see{
+    color: blue;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 20px 70px;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+}
+.whole{
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    font-size: 25px;
+}
+#last{
+    padding-bottom: 10px;
+    padding-top: 0.3rem;
+}
+.sub{
+    position: absolute;
+    right: 15px;
+    top: 200px;
+    color: white;
+}
+#istanbul{
+    width: 300px;
+    border-radius: 25px;
+}
+#whole{
+    color: white;
+}
+#big, #small, #line, #par, #tag, #cover{
+    color: white;
+    text-decoration: none;
+}
+#vip{
+    background-color: black;
+    height: 30px;
+    width: 150px;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#backup2{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+#big{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#line{
+    font-size: 25px;
+    font-weight: bold;
+}
+#thru{
+    text-decoration: line-through;
+    font-weight: 500;
+}
+#tag{
+    height: 20px;
+    width: 300px;
+    background-color: blueviolet;
+    padding: 5px 5px;
+    font-weight: bold;
+}
+#paris{
+    width: 300px;
+    border-radius: 25px;
+}
+.sub2{
+    position: absolute;
+    right: 340px;
+    top: 200px;
+    color: white;
+}
+#tag2{
+    height: 30px;
+    width: 130px;
+    color: white;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.sub3{
+    position: absolute;
+    left: 360px;
+    top: 200px;
+    color: white;
+}
+.sub4{
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    color: white; 
+}
+.third{
+    position: relative;
+    height: 850px;
+}
+.contain{
+    position: absolute;
+    border: 1px solid grey;
+    border-radius: 25px;
+    height: 500px;
+    width: 1300px;
+    margin-left: 30px;
+}
+#code{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    width: 150px;
+}
+.thirteen{
+    position: absolute;
+    right: 200px;
+    top: 30px;
+    padding: 10px 20px;
+}
+#with{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.second-ul li{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#scan{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+#terms{
+    color: blue;
+    font-size: 20px;
+}
+.fourteen{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#hcom{
+    width: 500px;
+    height: 500px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.contain2{
+    position: absolute;
+    border: 1px solid grey;
+    border-radius: 25px;
+    height: 250px;
+    width: 1300px;
+    margin-left: 30px;
+    bottom: 30px;
+}
+#emir{
+    position: absolute;
+    right: 530px;
+    top: 20px;
+}
+.fifteen{
+    position: absolute;
+    right: 20px;
+    top: 100px;
+}
+#book{
+    padding-bottom: 30px;
+}
+#sun{
+    color: black;
+    text-decoration: none;
+}
+#sunny{
+    position: absolute;
+    width: 650px;
+    height: 250px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#ad{
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    text-decoration: none;
+}
+footer{
+    height: 1000px;
+    position: relative;
+}
+#exp{
+    padding: 30px 50px;
+}
+table{
+    margin-left: 30px;
+}
+th{
+    padding: 20px 20px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+}
+td{
+    padding: 20px 20px;
+    text-align: left;
+    font-size: 13px;
+}
+#blue{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+#blue:hover{
+    text-decoration: underline;
+}
+#empty{
+    border-bottom: 1px solid grey;
+    margin-left: 35px;
+    width: 95%;
+}
+#last{
+    font-size: small;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}

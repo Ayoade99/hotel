@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media screen  and (max-width: 546px){
+    
+    body {
+        width: 750px;
+    }
+
+    #bars {
+        margin-left: 450px;
+    } 
+}
+
+
+@media screen and (max-width: 540px) {
+    
+
+    body {
+        width: 750px;
+    }
+
+    #bars {
+        margin-left: 450px;
+    }
+}
