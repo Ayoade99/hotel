@@ -8,26 +8,393 @@ html {
     font-size: 62.5%;
 }
 
-@media screen  and (max-width: 546px){
-    
-    body {
-        width: 750px;
-    }
-
-    #bars {
-        margin-left: 450px;
-    } 
-}
 
 
 @media screen and (max-width: 540px) {
     
 
-    body {
-        width: 750px;
+    #logo {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .first {
+        height: 20vh;
     }
 
     #bars {
-        margin-left: 450px;
+        margin-left: 300px;      
+    }
+
+    header {
+        height: 120rem;
+    }
+
+    .section {
+        top: 85rem;
+        left: 2rem;
+        width: 500px;
+    }
+
+    .cover {
+        top: 5rem;
+        left: 0;
+    }
+
+    .cover2 {
+        top: 20rem;
+    }
+
+    .allow {
+        top: 45rem;
+    }
+
+    .button4 {
+        top: 20rem;
+        left: 5rem;
+        padding-right: 0;
+        right: 150px;
+    }
+
+    #span2 {
+        padding-left: 10px;
+    }
+
+    .button3 {
+        top: 10rem;
+        left: 5rem;
+    }
+
+    #search {
+        top: 28rem;
+        left: 5rem;
+        width: 25vw;
+    }
+
+    #find {
+        top: 110rem;
+        left: 15rem;
+        font-size: 2rem;
+    }
+
+    #disco {
+        left: 150px;
+    }
+
+    .one {
+        display: none;
+    }
+
+    section {
+        height: 200rem;
+    }
+
+    #explore {
+        top: 210rem;
+        left: 10rem;
+        font-size: 1.6rem;
+    }
+
+    .eight {
+       top: 170rem;
+       left: 15rem;
+    }
+
+    .seven {
+        top: 130rem;
+        left: 15rem;
+    }
+
+     .six {
+        top: 90rem;
+        left: 15rem;
+    }
+
+     .five {
+        top: 50rem;
+        left: 15rem;
+    }
+
+     .four {
+        top: 10rem;
+        left: 15rem;
+    }
+
+    .nine {
+        left: 28rem;
+        top: 220rem;
+    }
+
+    .ten {
+        left: 1rem;
+        top: 220rem;
+    }
+
+    .eleven {
+        left: 28rem;
+        top: 250rem;
+    }
+
+    .twelve {
+        left: 1rem;
+        top: 250rem;
+    }
+
+    .second {
+        display: none;
+    }
+
+    .third {
+       display: none;
+    }
+
+    table {
+        display: none;
+    }
+
+    #exp {
+        display: none;
+    }
+
+    #last {
+        display: none;
+    }
+
+    #empty {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 425px) {
+    
+    #bars {
+        margin-left: 220px;
+        padding-top: 1rem;
+    }
+
+    #logo img {
+        width: 10rem;
+    }
+
+    .button3 {
+        top: 12rem;
+    }
+
+    .button4 {
+        top: 21rem;
+        right: 30px;
+    }
+
+    .button2 {
+        left: 60px;
+    }
+
+    .section {
+        width: 400px;
+        height: 200px;
+        left: 1rem;
+    }
+
+    #find {
+        left: 10rem;
+    }
+
+    #disco {
+        left: 10rem;
+    }
+
+    .two {
+        display: none;
+    }
+
+    .three {
+       width: 350px;
+       height: 100px;
+       margin-top: 10px;
+    }
+
+    section {
+        height: 270rem;
+    }
+
+    .nine {
+        left: 10rem;
+        top: 220rem;
+    }
+
+    .ten {
+        left: 10rem;
+        top: 250rem;
+    }
+
+    .eleven {
+        left: 10rem;
+        top: 280rem;
+    }
+
+    .twelve {
+        left: 10rem;
+        top: 310rem;
+    }
+
+    .eight {
+        top: 170rem;
+        left: 10rem;
+    }
+ 
+    .seven {
+         top: 130rem;
+         left: 10rem;
+    }
+ 
+    .six {
+         top: 90rem;
+         left: 10rem;
+    }
+
+    .five {
+         top: 50rem;
+         left: 10rem;
+    }
+ 
+    .four {
+         top: 10rem;
+         left: 10rem;
+    }
+
+    #explore {
+        left: 8rem;
     }
 }
+
+
+@media screen and (max-width: 375px) {
+    
+    #bars {
+        margin-left: 150px;
+    }
+
+    .button4 {
+        right: 20px;
+    }
+
+    .button4,.button3,.button2 {
+        left: 1rem;
+    }
+
+    #search {
+        width: 30vw;
+    }
+
+    .section {
+        width: 350px;
+    }
+
+    .three {
+        width: 300px;
+    }
+
+    #find {
+        left: 5rem;
+    }
+
+    #disco {
+        left: 5rem;
+    }
+
+    .nine {
+        left: 5rem;
+        top: 220rem;
+    }
+
+    .ten {
+        left: 5rem;
+        top: 250rem;
+    }
+
+    .eleven {
+        left: 5rem;
+        top: 280rem;
+    }
+
+    .twelve {
+        left: 5rem;
+        top: 310rem;
+    }
+
+    .eight {
+        top: 170rem;
+        left: 5rem;
+    }
+ 
+    .seven {
+         top: 130rem;
+         left: 5rem;
+    }
+ 
+    .six {
+         top: 90rem;
+         left: 5rem;
+    }
+
+    .five {
+         top: 50rem;
+         left: 5rem;
+    }
+ 
+    .four {
+         top: 10rem;
+         left: 5rem;
+    }
+
+    #explore {
+        left: 2rem;
+    }
+
+    .cover,.cover2 {
+        left: -3rem;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+    
+    #bars {
+        margin-left: 130px;
+    }
+
+    .button4 {
+       right: -1rem; 
+    }
+
+    .button3 {
+        padding-right: 310px; 
+    }
+
+    #search {
+        width: 40vw;
+    }
+
+    #your {
+        font-size: 1.5rem;
+    }
+
+    .section {
+        width: 300px;
+    }
+
+    .three {
+        width: 250px;
+    }
+
+    #explore {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+

@@ -36,6 +36,10 @@ html {
         margin-left: 700px;
     }
 
+    #english1 {
+        margin-right: 0;
+    }
+
     header {
         height: 950px;
     }
@@ -411,7 +415,7 @@ html {
 @media screen and (max-width: 768px) {
     
     #bars {
-     margin-left: 470px;
+       margin-left: 470px;
     }
 
     #one {
@@ -466,9 +470,6 @@ html {
 
 @media screen and (max-width: 642px){
     
-    body {
-        width: 750px;
-    }
 
     #bars {
         margin-left: 450px;
